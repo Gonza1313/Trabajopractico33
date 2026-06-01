@@ -1,0 +1,52 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a.logo {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.tarjeta {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    width: calc(33.33% - 20px);
+    cursor: pointer;
+}
+
+.tarjeta h3 {
+    font-weight: bold;
+}
+
+.tarjeta p {
+    font-size: 16px;
+}
+
+.tarjeta.seleccionada {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+}
+
+footer {
+    padding: 1rem;
+}
