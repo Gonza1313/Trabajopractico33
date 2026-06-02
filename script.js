@@ -17,6 +17,6 @@ meriendasContainer.innerHTML = htmlMeriendas;
 
 const mostrarTamañoArregloButton = document.getElementById('mostrar-tamaño-arreglo');
 mostrarTamañoArregloButton.addEventListener('click', () => {
-    const tamañoArreglo = meriendas.length;
-    alert(`El arreglo tiene ${tamañoArreglo} elementos.`);
+    document.getElementById('cantidad').textContent =
+        `El arreglo tiene ${meriendas.length} elementos`;
 });
